@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LOVELY PROFSSIONAL UNIVERSITY</title>
+  <style media="screen">
+    body{
+      background-image: url("lpu.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100% ;
+
+    }
+    .slider {
+    position: relative;
+    width: 350px;
+    margin: 50px auto;
+    perspective: 1000px;
+    padding-top: 120px;
+    }
+    .rotator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 55%;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: roter 29s linear infinite;
+    }
+    .rotator:hover {
+    animation-play-state: paused;
+    }
+    @keyframes roter {
+    from {
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(360deg);
+    }
+    }
+    .items {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid white;
+    }
+    .items:hover img {
+    transform: scale(1.1);
+    }
+    .items img {
+    height: 100%;
+    width: 100%;
+    transition: all 3s ease;
+    }
+    .items:first-child {
+    transform: rotateY(calc(40deg * 1)) translateZ(300px);
+    }
+    .items:nth-child(2) {
+    transform: rotateY(calc(40deg * 2)) translateZ(300px);
+    }
+    .items:nth-child(3) {
+    transform: rotateY(calc(40deg * 3)) translateZ(300px);
+    }
+    .items:nth-child(4) {
+    transform: rotateY(calc(40deg * 4)) translateZ(300px);
+    }
+    .items:nth-child(5) {
+    transform: rotateY(calc(40deg * 5)) translateZ(300px);
+    }
+    .items:nth-child(6) {
+    transform: rotateY(calc(40deg * 6)) translateZ(300px);
+    }
+    .items:nth-child(7) {
+    transform: rotateY(calc(40deg * 7)) translateZ(300px);
+    }
+    .items:nth-child(8) {
+    transform: rotateY(calc(40deg * 8)) translateZ(300px);
+    }
+    .items:nth-child(9) {
+    transform: rotateY(calc(40deg * 9)) translateZ(300px);
+    }
+    p1{
+        position: relative;
+        right:350px;
+        top:550px;
+        
+    }
+    p2{
+        position: relative;
+        right:200px;
+        top:550px;
+    }
+    p3{
+        position: relative;
+        right:50px;
+        top:550px;
+        
+    }
+    p4{
+        position: relative;
+        right:-90px;
+        top:550px;
+    }
+    p5{
+        position: relative;
+        left:520px;
+        top:480px;
+    }
+    .form{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium; 
+        position:relative;
+        top:-300px;
+        right:620px;
+      
+        color: rgba(0, 0, 0, 0.984);
+    }
+    
+
+  </style>
+</head>
+<body>
+   <div class="slider">
+     <div class="rotator">
+        <div class="items">
+           <img src="logolpu.png" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="lpu2.webp" />
+        </div>
+        <div class="items">
+           <img src="Lovely-Professional-University-Phagwara1.jpg" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="lpu3.jpg" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="sdma.webp" />
+        </div>
+        <div class="items">
+           <img src="lpu4.png" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="12338-lovely-professional-university.webp" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="modi.jpg" alt="items photo" />
+        </div>
+        <div class="items">
+           <img src="lpu5.webp" alt="items photo" />
+        </div>
+     </div>
+     <p1><a href="https://api.whatsapp.com/send?phone=+919852569000&text=Hi%2C%20I%20need%20assistance%20for%20Admissions%202022." ><img src="WhatsApp Image 2022-11-20 at 17.14.00.jpeg" height="70px" width="70px"></a></p1>
+     <p2><a href="https://www.instagram.com/lpuuniversity/?hl=en"><img src="WhatsApp Image 2022-11-20 at 17.14.00 (2).jpeg" height="70px" width="70px"></a></p2>
+     <p3><a href="https://twitter.com/lpuuniversity"><img src="twitter icon.png" height="70px" width="70px"></a></p3>
+     <p4><a href="tel:1824-517000"><img src="WhatsApp Image 2022-11-20 at 17.14.01 (1).jpeg" height="70px" width="70px"></a></p4>
+     <p5><a href="mailto:admissions@lpu.co.in"><img src="email1.png" height="70px" width="70px"></a></p5>
+
+
+
+     <form class="form"><b>
+        <fieldset>
+            <legend>STUDENT INFORMATION</legend>
+        <label for="firstName" >Name</label>
+        <input type="text" name="firstName" id="firstName" autofocus="on" placeholder="Your Name" value="" required>
+        <br><br>
+        <label for="">Father's Name</label>
+        <input type="text" id="wifeName" placeholder="Father's Name" name="" required>
+        <br><br>
+        <label>Which stream you want to choose?</label><br>
+        <input type="checkbox" name="country" id="India">
+        <label for="India">Btech</label>
+        <input type="checkbox" name="course" id="America">
+        <label for="America">BBA</label>
+        <input type="checkbox" name="course" id="Canada">
+        <label for="cse">MBA</label>
+        <br><br>
+        <label>Age</label>
+        <input type="number" min="21" max="50" value="18" > 
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </b>
+    </form>
+</body>
+</html>
